@@ -1,17 +1,17 @@
-import React from 'react'
+import React from 'react';
 //import {style} from 'react';
 
 const Footer = () => {
     let footerStyle={
-        position: 'absolute',
-        top: '80vh',
-        width: '100%'
+        position: 'fixed',
+        bottom: '0',
+        width: '100%',
     };
     return (
         <footer className="bg-dark text-muted" style={footerStyle}>           
-            <p className="text-center p-5">
+            <p className="text-center p-3">
                 Copyright &copy; MyTodosList
-            </p> 
+            </p>
         </footer>
     )
 }
