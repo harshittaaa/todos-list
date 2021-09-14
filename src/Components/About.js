@@ -4,7 +4,8 @@ const About = () => {
     return (
         <div>
             My about Components
-            <p>This is About page</p>
+            
+            <p>This is About section</p>
         </div>
     )
 };
